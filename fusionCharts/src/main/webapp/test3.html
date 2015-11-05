@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">  
+<html>  
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+<script src="FusionCharts_Evaluation/INFOSOFTGLOBAL.COM/FusionCharts.js" type="text/javascript"></script>
+
+<body>  
+<div id="chart1div" align="center"></div>  
+<script language="JavaScript">  
+     var areaObject=[{name:"三枪",count:1100,color:"008E8E"},  
+                      {name:"刺陵",count:901,color:"A186BE"},  
+                      {name:"熊猫大侠",count:807,color:"F6BD0F"},  
+                      {name:"大兵小将",count:41,color:"AFD8F8"},  
+                      {name:"花田囍事2010",count:741,color:"B3AA00"},  
+                      {name:"全称热恋",count:121,color:"008ED6"}  
+                     ];  
+     var strXML="<graph caption='最烂电影排名' xAxisName='电影名' yAxisName='count' baseFont='宋体' baseFontSize='12'  >";  
+     var length=areaObject.length;  
+     for(var i=1;i<=length;i++){  
+    	 strXML= strXML+"<set name='"+areaObject[i-1].name+"' value='"+areaObject[i-1].count+"' color='"+areaObject[i-1].color+"'/>";  
+     }  
+     strXML= strXML+"</graph>";      
+                 var chart1 = new FusionCharts("FusionCharts_Evaluation/INFOSOFTGLOBAL.COM/Column3D.swf", "chart1Id", "900", "400");  
+                 chart1.setDataXML(strXML);  
+                 chart1.render("chart1div");  
+ </script>　  
+</body>  
+</html> 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph baseFont='宋体' baseFontSize='12' caption='最烂电影排名' subcaption='' yAxisMinValue='51650.1' yAxisMaxValue='71118.3' xaxisname='电影名' yaxisname='count' hovercapbg='FFECAA' hovercapborder='F47E00' formatNumberScale='0' decimalPrecision='0' showvalues='1' numdivlines='10' numVdivlines='0' shownames='1' rotateNames='1'>  
+  <set name='刺陵' value='57653' color='AFD8F8'/>  
+  <set name='熊猫大侠' value='57389' color='F6BD0F'/>  
+  <set name='大兵小将' value='59256' color='8BBA00'/>  
+  <set name='花田囍事' value='62762' color='FF8E46'/>  
+  <set name='全称热恋' value='63287' color='008E8E'/>  
+</graph>  
